@@ -1,0 +1,29 @@
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(to right, #007bff, #00c6ff);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .pricing-card {
+      transition: transform 0.3s;
+    }
+    .pricing-card:hover {
+      transform: translateY(-10px);
+    }
+    footer {
+      background: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+    }
+  

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">StartupX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-2" href="#contact">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="container">
+      <h1>Launch Your Startup with Confidence</h1>
+      <p class="mt-3">We provide everything you need to build, grow, and scale your business.</p>
+      <a href="#pricing" class="btn btn-light btn-lg mt-4">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Features</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">🚀 Fast Performance</h5>
+              <p class="card-text">Our platform ensures your startup grows with blazing fast speed and efficiency.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">🔒 Secure</h5>
+              <p class="card-text">Top-notch security features to keep your business and data safe at all times.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">⚡ Easy Integration</h5>
+              <p class="card-text">Seamlessly integrate with your favorite tools and apps to supercharge your workflow.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Pricing</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card pricing-card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Basic</h5>
+              <p class="display-6 fw-bold">$9/mo</p>
+              <ul class="list-unstyled mb-4">
+                <li>✔ Starter tools</li>
+                <li>✔ 5 Projects</li>
+                <li>✔ Email Support</li>
+              </ul>
+              <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card pricing-card shadow-sm border-primary">
+            <div class="card-body">
+              <h5 class="card-title">Pro</h5>
+              <p class="display-6 fw-bold">$29/mo</p>
+              <ul class="list-unstyled mb-4">
+                <li>✔ All Basic Features</li>
+                <li>✔ 20 Projects</li>
+                <li>✔ Priority Support</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card pricing-card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Enterprise</h5>
+              <p class="display-6 fw-bold">$99/mo</p>
+              <ul class="list-unstyled mb-4">
+                <li>✔ All Pro Features</li>
+                <li>✔ Unlimited Projects</li>
+                <li>✔ Dedicated Manager</li>
+              </ul>
+              <a href="#" class="btn btn-outline-primary">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">What Our Clients Say</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="lead">"This platform helped us launch our startup faster than we imagined!"</p>
+            <small>- John Doe, CEO</small>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">"Amazing features and incredible support. Highly recommend!"</p>
+            <small>- Sarah Lee, Founder</small>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">"Worth every penny. Our growth skyrocketed thanks to StartupX."</p>
+            <small>- Michael Smith, CTO</small>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">FAQ</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1">
+              What is StartupX?
+            </button>
+          </h2>
+          <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">StartupX is a platform designed to help you build, launch, and grow your startup.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">
+              Can I cancel anytime?
+            </button>
+          </h2>
+          <div id="a2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes, you can cancel your subscription at any time without hidden charges.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/02/google-maps-2961754.jpg?tf=3840x" width="100%" height="300" style="border:0;" allowfullscreen="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 StartupX. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
